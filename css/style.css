@@ -101,3 +101,68 @@ h1 {
     padding: 15px;
 
 }
+
+/* regole container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.cont-big {
+    /* debug */
+    /* height: 500px; */
+}
+
+.cont-small {
+    border-top: 2px solid white;
+}
+
+/* regole colori container */
+
+.cont-grey {
+    background-color: #f6f6f6;
+}
+
+.cont-black {
+    background-color: #23272a;
+}
+
+
+/* regole main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
+}
+
+.section-big {
+    flex-basis: 70%;
+    /* debug */
+    background-color: #218b21;
+    height: 400px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+section p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.img {
+    flex-basis: 50%;
+}
+
+.text {
+    flex-basis: 30%;
+}
