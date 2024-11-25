@@ -133,17 +133,18 @@ h1 {
 
 /* regole main */
 
-.main {
+.section-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    padding: 50px;
+    padding: 55px;
 }
 
 .section-big {
     width: 80%;
     text-align: center;
+    padding: 55px 0;
 }
 
 h2 {
