@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* regole header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #255ee9;
+    height: 80px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* regole hover */
+
+.sub-footer li:hover {
+    text-decoration: underline;
+}
+
+.list-mainnav li:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    color: blue;
+}
+
+/* regole navigazione header */
+
+ul.list-mainnav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-basis: 50%;
+    gap: 25px;
+}
+
+ul.list-mainnav li,
+ul.list-footnav li {
+    list-style: none;
+}
+
+/* regole button */
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.jumbo-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.button-big {
+    font-size: 20px;
+    padding: 18px;
+}
+
+.button-black {
+    background-color: #22282a;
+    color: white;
+}
+
+.button-blue {
+    background-color: #8ea1e2;
+    color: white;
+}
+
+/* regole jumbotron */
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.jumbotron>div {
+    width: 60%;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+/* regole container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont-small {
+    border-top: 1px solid #565c63;
+}
+
+/* regole colori container */
+
+.cont-grey {
+    background-color: #f6f6f6;
+}
+
+.cont-black {
+    background-color: #23272a;
+}
+
+/* regole wave */
+
+.wave {
+    color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+.wave-rot {
+    transform: rotate(180deg);
+}
+
+
+/* regole main */
+
+.section-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 55px;
+}
+
+.section-big {
+    width: 80%;
+    text-align: center;
+    padding: 55px 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.section-big h2 {
+    text-align: center;
+}
+
+section p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.img {
+    flex-basis: 50%;
+}
+
+.text {
+    flex-basis: 30%;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* regole footer */
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 80%;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    flex-basis: 25%;
+}
+
+.footer-blue {
+    color: #6d84c5;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 55%;
+}
+
+#foot-lang {
+    height: 15px;
+    width: auto;
+}
+
+#foot-lang-sel::after {
+    content: "\02C5";
+    font-size: 15px;
+    
+}
+
+.footer div {
+    padding: 15px 0;
+}
+
+.footer i {
+    margin-right: 10px;
+    height: 25px;
+
+}
+
+.footer h3 {
+    font-size: 35px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* regole navigazione footer */
+
+ul.list-footnav {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.list-footnav li {
+    padding: 5px 0;
+}
+
+.list-footnav {
+    font-size: 18px;
+}
