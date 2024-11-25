@@ -114,11 +114,10 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 30px 0;
 }
 
 .cont-small {
-    border-top: 2px solid white;
+    border-top: 1px solid #565c63;
 }
 
 /* regole colori container */
@@ -178,4 +177,84 @@ section p {
     font-size: 30px;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+/* regole footer */
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 80%;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    flex-basis: 25%;
+}
+
+.footer-blue {
+    color: #6d84c5;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 55%;
+}
+
+#foot-lang {
+    height: 15px;
+    width: auto;
+}
+
+#foot-lang-sel::after {
+    content: "\02C5";
+    font-size: 15px;
+    
+}
+
+.footer div {
+    padding: 15px 0;
+}
+
+.footer i {
+    margin-right: 10px;
+    height: 25px;
+
+}
+
+.footer h3 {
+    font-size: 35px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* regole navigazione footer */
+
+ul.list-footnav {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.list-footnav li {
+    padding: 5px 0;
+}
+
+.list-footnav {
+    font-size: 18px;
 }
